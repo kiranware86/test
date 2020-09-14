@@ -5,6 +5,7 @@ public class Employee {
 	private String employeeName;
 	private String lastName;
 	private String empDesignation;
+	private String empEmailId;
 
 	public Employee() {
 		// No arg constructor

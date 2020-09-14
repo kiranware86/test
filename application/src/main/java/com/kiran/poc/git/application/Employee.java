@@ -6,7 +6,7 @@ public class Employee {
 	private String lastName;
 	private String empDesignation;
 	private String empEmailId;
-	private String qualification;
+	private String qualification1;
 
 	
 	public Integer getEmpId() {
@@ -49,12 +49,12 @@ public class Employee {
 		this.empEmailId = empEmailId;
 	}
 
-	public String getQualification() {
-		return qualification;
+	public String getQualification1() {
+		return qualification1;
 	}
 
-	public void setQualification(String qualification) {
-		this.qualification = qualification;
+	public void setQualification(String qualification1) {
+		this.qualification1 = qualification1;
 	}
 
 	public Employee() {

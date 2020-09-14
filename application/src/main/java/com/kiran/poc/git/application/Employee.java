@@ -10,4 +10,10 @@ public class Employee {
 		// No arg constructor
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", employeeName=" + employeeName + ", lastName=" + lastName + ", empDesignation="
+				+ empDesignation + "]";
+	}
+
 }

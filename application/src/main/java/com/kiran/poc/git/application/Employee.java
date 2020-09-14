@@ -8,12 +8,13 @@ public class Employee {
 	private String empEmailId;
 	private String qualification;
 
-	public Integer getId() {
-		return id;
+	
+	public Integer getEmpId() {
+		return empId;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
 	}
 
 	public String getEmployeeName() {
@@ -62,7 +63,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", employeeName=" + employeeName + ", lastName=" + lastName + ", empDesignation="
+		return "Employee [id=" + empId + ", employeeName=" + employeeName + ", lastName=" + lastName + ", empDesignation="
 				+ empDesignation + "]";
 	}
 

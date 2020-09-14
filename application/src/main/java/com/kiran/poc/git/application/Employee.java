@@ -5,4 +5,8 @@ public class Employee {
 	private String employeeName;
 	private String lastName;
 
+	public Employee() {
+		// No arg constructor
+	}
+
 }

@@ -1,7 +1,7 @@
 package com.kiran.poc.git.application;
 
 public class Employee {
-	private Integer id;
+	private Integer empId;
 	private String employeeName;
 	private String lastName;
 	private String empDesignation;

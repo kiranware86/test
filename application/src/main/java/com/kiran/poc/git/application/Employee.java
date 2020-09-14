@@ -55,6 +55,7 @@ public class Employee {
 
 	public void setQualification(String qualification1) {
 		this.qualification1 = qualification1;
+
 	}
 
 	public Employee() {
